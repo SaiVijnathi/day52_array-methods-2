@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width:500px;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+body{
+  background-color: rgb(250, 233, 213);
+}
+
+button{
+  background-color: rgb(197, 248, 248);
+  font-size: 1.3rem;
+  width: 150px;
+  margin: 15px;
+  padding: 5px;
+  border: 2px solid rgb(197, 248, 248);
+  box-sizing: border-box;
+}
+
+button:hover{
+  background-color: rgb(166, 248, 248);
+  border: 2px solid black;
+}
+
+.buttonDiv{
+  display:inline-block;
+}
+
+#invisible{
+  width: 1px;
+  background-color: rgb(250, 233, 213);
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-bottom: 10px;
+}
